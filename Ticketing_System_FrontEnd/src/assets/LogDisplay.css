@@ -1,0 +1,32 @@
+.log-display {
+  position: absolute;
+  background-color: #1f1f1f;
+  border: 1px solid #00ff00;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  top: 60%;
+  left: 440px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0px 8px 16px rgba(0, 255, 0, 0.2);
+}
+
+.log-display h2 {
+  color: #00ff00;
+  margin-bottom: 10px;
+}
+
+.log-display .logs {
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #121212;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #00ff00;
+}
+
+.log-display .logs p {
+  font-size: 14px;
+  color: #ffffff;
+}

@@ -1,0 +1,42 @@
+.control-panel {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 600px;
+  top: 45%;
+  left: 470px;
+}
+
+.control-panel button {
+  flex: 1;
+  margin: 0 10px;
+  padding: 12px;
+  color: #121212;
+  background-color: #00ff00;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.control-panel button.start-btn:hover {
+  background-color: #1aff1a;
+}
+
+.control-panel button.stop-btn {
+  background-color: #ff4d4d;
+}
+
+.control-panel button.stop-btn:hover {
+  background-color: #ff6666;
+}
+
+.control-panel button.reset-btn {
+  background-color: #ffa500;
+}
+
+.control-panel button.reset-btn:hover {
+  background-color: #ffbf00;
+}
